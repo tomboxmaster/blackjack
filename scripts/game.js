@@ -68,7 +68,7 @@ function bettingGameStart() {
   `);
   dom.assignButtonFunctionality('.js-bet-button', () => {
     betAmount = Number(document.querySelector('.js-bet-input').value);
-    if (betAmount % 1 !== 0 || betAmount === 0) {
+    if (betAmount % 1 !== 0 || betAmount <= 0 || betAmount > credits.credits) {
       return;
     }
     credits.addToCredits(-betAmount);
