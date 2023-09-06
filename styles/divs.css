@@ -1,0 +1,124 @@
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 15px 0px;
+}
+
+.menu-buttons,
+.betting-menu {
+  margin: 50px 0px;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  padding: 20px 20px;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  border: inset;
+  border-color: brown;
+  border-width: 5px;
+  background-color: darkgreen;
+}
+
+.scores {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  place-items: center;
+}
+
+.hands {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  justify-items: left;
+  align-items: center;
+}
+
+.card-hand {
+  margin: 40px 10px;
+}
+
+.info {
+  display: grid;
+  grid-template-rows: 30% 70%;
+  place-items: center;
+  background-color: gray;
+  border: inset;
+  border-color: orange;
+  border-width: 5px;
+  margin-left: 20px;
+}
+
+.result-info,
+.game-info {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.result-info {
+  border-bottom: inset;
+  border-bottom-color: orange;
+  border-bottom-width: 3px;
+}
+
+.game-info {
+  border-top: inset;
+  border-top-color: orange;
+  border-top-width: 3px;
+}
+
+.exponential-duel-info {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 40% 20% 40%;
+  place-items: center;
+}
+
+.exponential-duel-win-option,
+.exponential-duel-lose-option {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  place-items: center;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.bet-input {
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+.bet-button,
+.betting-menu .back-to-menu-button {
+  width: 224px;
+  padding: 8px 0px;
+  font-size: 20px;
+}
+
+.bet-button {
+  background-color: black;
+  color: white;
+  text-shadow: 2px 2px gray;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+
+.betting-menu .back-to-menu-button {
+  margin-top: 50px;
+  color: white;
+  text-shadow: 2px 2px black;
+  border-radius: 10px;
+}

@@ -1,0 +1,43 @@
+.menu-button {
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px black;
+  border-radius: 16px;
+  font-size: 20px;
+  margin: 10px 0px;
+  padding: 6px 0px;
+  width: 220px;
+}
+
+.betting-game-button {
+  background-color: darkred;
+}
+
+.exponential-duel-button {
+  background-color: darkgreen;
+}
+
+.win-1-get-1-button {
+  background-color: blue;
+}
+
+.game-button {
+  padding: 10px 20px;
+  border-radius: 16px;
+}
+
+.hit-button {
+  background-color: blue;
+}
+
+.stand-button {
+  background-color: red;
+}
+
+.play-again-button {
+  background-color: lightgray;
+}
+
+.back-to-menu-button {
+  background-color: gray;
+}

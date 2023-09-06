@@ -1,0 +1,25 @@
+body {
+  background-color: seagreen;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+button {
+  font-weight: bold;
+  border-width: 1px;
+  border-color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: white;
+}
+
+hr {
+  border-color: brown;
+}
+
+img {
+  height: 200px;
+}

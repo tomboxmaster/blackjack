@@ -1,0 +1,106 @@
+.title {
+  font-size: 40px;
+  text-shadow: 3px 3px black;
+}
+
+.blackjack-title {
+  color: white;
+}
+
+.betting-game-title {
+  color: red;
+}
+
+.exponential-duel-title {
+  color: lime;
+}
+
+.win-1-get-1-title {
+  color: lightblue;
+}
+
+.credits-amount {
+  font-size: 40px;
+  color: gold;
+  text-shadow: 3px 3px black;
+}
+
+.credits-text {
+  color: gold;
+  text-shadow: 1px 1px black;
+  margin: 0px 8px;
+}
+
+.card-hand-score {
+  font-size: 60px;
+  color: lightgray;
+  text-shadow: 3px 3px black;
+}
+
+.result-message {
+  font-size: 40px;
+  text-shadow: 2px 2px black;
+}
+
+.result-message-none {
+  color: white;
+}
+
+.result-message-win {
+  color: lightgreen;
+}
+
+.result-message-lose {
+  color: lightcoral;
+}
+
+.result-message-tie {
+  color: lightgray;
+}
+
+.win-1-get-1-info,
+.betting-game-info {
+  color: gold;
+}
+
+.win-1-get-1-message,
+.bet-message {
+  text-shadow: 1px 1px black;
+  margin-bottom: 20px;
+}
+
+.win-1-get-1-amount,
+.bet-amount {
+  font-size: 50px;
+  text-shadow: 2px 2px black;
+}
+
+.exponential-duel-or-message {
+  font-size: 50px;
+  color: lightgray;
+  text-shadow: 3px 3px black;
+}
+
+.exponential-duel-win-option {
+  color: lightgreen;
+}
+
+.exponential-duel-lose-option {
+  color: lightcoral;
+}
+
+.exponential-duel-option-message {
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+}
+
+.exponential-duel-option-amount {
+  font-size: 40px;
+  text-shadow: 2px 2px black;
+}
+
+.game-button {
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 0 black;
+}
